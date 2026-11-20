@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nerja · Restaurante & Cafetería · Cruz del Eje</title>
+  <meta name="description" content="Nerja, restaurante y cafetería en la costanera de Cruz del Eje, Córdoba. Desayunos, almuerzos, meriendas y cenas caseras." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__word">
+      <span>N</span><span>E</span><span>R</span><span>J</span><span>A</span>
+    </div>
+    <div class="loader__count"><span class="loader__num">0</span></div>
+    <div class="loader__bar"><i></i></div>
+  </div>
+
+  <!-- ============ CURSOR ============ -->
+  <div class="cursor" aria-hidden="true"><span class="cursor__label">Ver</span></div>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Nerja, inicio">NERJA</a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#dia">El día</a>
+      <a href="#casa">La casa</a>
+      <a href="#dulces">Dulces</a>
+      <a href="#visita">Visitanos</a>
+    </nav>
+    <a href="tel:+5493549502954" class="nav__cta magnetic"><span>Reservar</span></a>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="img/fachada-noche.webp" alt="Fachada de Nerja iluminada al atardecer, sobre la costanera" />
+      </div>
+      <div class="hero__veil"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow"><span class="line"></span>Restaurante &amp; Cafetería</p>
+        <h1 class="hero__title" aria-label="Nerja">
+          <span class="hero__char">N</span><span class="hero__char">E</span><span class="hero__char">R</span><span class="hero__char">J</span><span class="hero__char">A</span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lead">Costanera de Cruz del Eje, Córdoba.<br/>Del primer café a la última copa.</p>
+          <div class="hero__scroll">
+            <span>Deslizá</span>
+            <i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MANIFIESTO ============ -->
+    <section class="manifesto">
+      <p class="manifesto__label">— Nuestra casa</p>
+      <p class="manifesto__text" data-words>
+        Una casa blanca frente a la costanera, donde el café de la mañana y la cena de la noche se cocinan con la misma calma: productos frescos, platos abundantes y medialunas que salen de nuestro propio horno.
+      </p>
+      <div class="manifesto__sig">
+        <span class="manifesto__dot"></span>
+        <em>Cruz del Eje · desde la costanera</em>
+      </div>
+    </section>
+
+    <!-- ============ DEL DÍA A LA NOCHE (horizontal) ============ -->
+    <section class="day" id="dia">
+      <div class="day__head">
+        <p class="kicker">01 — Del día a la noche</p>
+        <h2 class="split">Cuatro momentos,<br/><em>una misma mesa.</em></h2>
+      </div>
+      <div class="day__pin">
+        <div class="day__progress"><i></i></div>
+        <div class="day__track">
+
+          <article class="moment" data-hour="08:30">
+            <div class="moment__img" data-cursor="Mañana">
+              <img src="img/desayuno.jpg" alt="Desayuno con tostadas, huevos revueltos, café con leche y jugo de naranja" />
+            </div>
+            <div class="moment__txt">
+              <span class="moment__n">I</span>
+              <h3>Mañana</h3>
+              <p>Tostadas, huevos revueltos sobre palta, jugo exprimido y un café con leche que pide quedarse un rato más.</p>
+            </div>
+          </article>
+
+          <article class="moment moment--alt" data-hour="13:00">
+            <div class="moment__img" data-cursor="Mediodía">
+              <img src="img/plato-casero.jpg" alt="Plato casero con pollo, papas, lentejas salteadas, cebolla y huevo frito" />
+            </div>
+            <div class="moment__txt">
+              <span class="moment__n">II</span>
+              <h3>Mediodía</h3>
+              <p>Cocina casera y generosa: pollo, papas doradas, lentejas salteadas con cebolla y un huevo a caballo.</p>
+            </div>
+          </article>
+
+          <article class="moment" data-hour="17:30">
+            <div class="moment__img" data-cursor="Tarde">
+              <img src="img/tarta-manzana.jpg" alt="Tarta de manzana con helado y hoja de menta" />
+            </div>
+            <div class="moment__txt">
+              <span class="moment__n">III</span>
+              <h3>Merienda</h3>
+              <p>Medialunas elaboradas por nosotros, tartas tibias y buen café, con la luz de la tarde entrando por los ventanales.</p>
+            </div>
+          </article>
+
+          <article class="moment moment--alt" data-hour="21:00">
+            <div class="moment__img" data-cursor="Noche">
+              <img src="img/brochettes.jpg" alt="Brochettes de carne y vegetales con salsa verde de la casa" />
+            </div>
+            <div class="moment__txt">
+              <span class="moment__n">IV</span>
+              <h3>Noche</h3>
+              <p>Brochettes de carne y vegetales, salsa de la casa y una mesa larga para compartir bajo las luces cálidas.</p>
+            </div>
+          </article>
+
+          <div class="day__end">
+            <p>Y vuelta a empezar<br/><em>mañana temprano.</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LA CASA — CARRUSEL 3D ============ -->
+    <section class="house" id="casa">
+      <div class="house__head">
+        <p class="kicker">02 — La casa en 360°</p>
+        <h2 class="split">Girá alrededor<br/><em>de Nerja.</em></h2>
+        <p class="house__hint">Arrastrá o deslizá para girar</p>
+      </div>
+
+      <div class="stage" data-cursor="Arrastrá">
+        <div class="stage__floor"></div>
+        <div class="ring">
+          <figure class="card"><img src="img/fachada-noche.webp" alt="Fachada de noche" draggable="false" /><figcaption>La fachada</figcaption></figure>
+          <figure class="card"><img src="img/brochettes.jpg" alt="Brochettes" draggable="false" /><figcaption>Brochettes</figcaption></figure>
+          <figure class="card"><img src="img/desayuno.jpg" alt="Desayuno" draggable="false" /><figcaption>Desayuno</figcaption></figure>
+          <figure class="card"><img src="img/flan.jpg" alt="Flan casero" draggable="false" /><figcaption>Flan casero</figcaption></figure>
+          <figure class="card"><img src="img/fachada-dia.jpg" alt="Fachada de día" draggable="false" /><figcaption>De día</figcaption></figure>
+          <figure class="card"><img src="img/plato-casero.jpg" alt="Plato casero" draggable="false" /><figcaption>Del día</figcaption></figure>
+          <figure class="card"><img src="img/tarta-manzana.jpg" alt="Tarta de manzana" draggable="false" /><figcaption>Tarta de manzana</figcaption></figure>
+          <figure class="card"><img src="img/brochettes.jpg" alt="Mesa para compartir" draggable="false" /><figcaption>Para compartir</figcaption></figure>
+        </div>
+      </div>
+
+      <div class="house__facts">
+        <div class="fact"><span class="fact__num" data-count="4">0</span><span class="fact__lbl">momentos del día</span></div>
+        <div class="fact"><span class="fact__num" data-count="100" data-suffix="%">0</span><span class="fact__lbl">medialunas propias</span></div>
+        <div class="fact"><span class="fact__num" data-count="1">0</span><span class="fact__lbl">costanera enfrente</span></div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__row">
+        <span>Desayunos</span><i>✦</i><span>Almuerzos</span><i>✦</i><span>Meriendas</span><i>✦</i><span>Cenas</span><i>✦</i>
+        <span>Desayunos</span><i>✦</i><span>Almuerzos</span><i>✦</i><span>Meriendas</span><i>✦</i><span>Cenas</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ DULCES ============ -->
+    <section class="sweets" id="dulces">
+      <div class="sweets__intro">
+        <p class="kicker">03 — Para el final</p>
+        <h2 class="split">Lo dulce<br/><em>también es casero.</em></h2>
+      </div>
+
+      <div class="sweets__grid">
+        <figure class="sweet sweet--a">
+          <div class="sweet__frame" data-cursor="Flan">
+            <img src="img/flan.jpg" alt="Flan casero con dulce de leche y caramelo" />
+          </div>
+          <figcaption>
+            <span>Flan casero</span>
+            <em>con dulce de leche y caramelo</em>
+          </figcaption>
+        </figure>
+
+        <blockquote class="sweets__quote">
+          <p>“Las medialunas estaban exquisitas. Se nota que son muy caseritas.”</p>
+          <cite>— Febe, reseña en Google</cite>
+        </blockquote>
+
+        <figure class="sweet sweet--b">
+          <div class="sweet__frame" data-cursor="Tarta">
+            <img src="img/tarta-manzana.jpg" alt="Tarta de manzana tibia con helado de crema" />
+          </div>
+          <figcaption>
+            <span>Tarta de manzana</span>
+            <em>tibia, con helado de crema</em>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ RESEÑAS ============ -->
+    <section class="reviews">
+      <div class="reviews__head">
+        <p class="kicker">04 — Lo que dicen</p>
+        <h2 class="split">Palabras de<br/><em>nuestra mesa.</em></h2>
+      </div>
+
+      <div class="reviews__list">
+        <article class="review">
+          <div class="review__stars" aria-label="Comida 5 de 5">★★★★★</div>
+          <p>“De Cruz del Eje, el mejor lugar para cenar. Es la tercera vez que vengo con mi pareja y la comida es un lujo. Platos muy abundantes.”</p>
+          <footer><strong>Feede A.</strong><span>Cena · Local Guide</span></footer>
+        </article>
+        <article class="review">
+          <div class="review__stars" aria-label="Comida 5 de 5">★★★★★</div>
+          <p>“Lindo lugar en la costanera para merendar. Buena calidad, rico café y precios súper bien. La atención de los chicos, excelente.”</p>
+          <footer><strong>Germán M.</strong><span>Merienda · Local Guide</span></footer>
+        </article>
+        <article class="review">
+          <div class="review__stars" aria-label="Comida 5 de 5">★★★★★</div>
+          <p>“Un excelente lugar para ir a comer. Pequeño pero cómodo y bien ambientado. Para cenar está excelente.”</p>
+          <footer><strong>Juan C.</strong><span>Cena · Local Guide</span></footer>
+        </article>
+        <article class="review">
+          <div class="review__stars" aria-label="Comida 5 de 5">★★★★★</div>
+          <p>“La comida sencilla y sabrosa, se nota fresca. Sin espera y con un ambiente donde se puede conversar.”</p>
+          <footer><strong>Claudia M.</strong><span>Local Guide</span></footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ VISITANOS ============ -->
+    <section class="visit" id="visita">
+      <div class="visit__media">
+        <img src="img/fachada-nerja.png" alt="Fachada de Nerja de día, con su cartel azul" />
+      </div>
+
+      <div class="visit__info">
+        <p class="kicker">05 — Visitanos</p>
+        <h2 class="split">Te esperamos<br/><em>en la costanera.</em></h2>
+
+        <dl class="visit__data">
+          <div class="row">
+            <dt>Dirección</dt>
+            <dd>Costanera y 2 de Abril, esquina<br/>X5280 Cruz del Eje, Córdoba</dd>
+          </div>
+          <div class="row">
+            <dt>Horario</dt>
+            <dd>Abrimos a las 17:30 hs<br/><small>Puede variar en feriados</small></dd>
+          </div>
+          <div class="row">
+            <dt>Teléfono</dt>
+            <dd><a href="tel:+5493549502954">03549 15-50-2954</a></dd>
+          </div>
+          <div class="row">
+            <dt>Por persona</dt>
+            <dd>$10.000 – $20.000</dd>
+          </div>
+        </dl>
+
+        <div class="visit__actions">
+          <a class="btn btn--solid magnetic" href="tel:+5493549502954"><span>Llamar y reservar</span></a>
+          <a class="btn btn--ghost magnetic" href="https://www.google.com/maps/search/?api=1&query=Nerja+Costanera+2+de+Abril+Cruz+del+Eje+C%C3%B3rdoba" target="_blank" rel="noopener"><span>Cómo llegar ↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer__line">Restaurante &amp; Cafetería · Cruz del Eje, Córdoba</p>
+    <div class="footer__big" aria-hidden="true">
+      <span>N</span><span>E</span><span>R</span><span>J</span><span>A</span>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Nerja</span>
+      <a href="#top" class="footer__top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
